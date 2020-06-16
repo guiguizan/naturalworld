@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>​
+<head>​
+    <title>SITE DO GUIZAO</title>​
+    <meta name="vewport" content="width=device-widht,initial-scale=1.0">
+    <meta charset=“utf-8” />​  
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet"  type="text/css" href="estilos/meuestilo.css"> 
+    
+</head>​
+<style >
+    body{
+        background-image: url(imagens/cogu2.jpg);
+    }
+
+    *{
+        margin: 0;
+        padding:0;
+    }
+
+#containerForm{
+
+  width: 50%;
+    height: 100px;
+}
+
+#posiBotao{
+    margin-top: 20px
+}
+</style>
+
+
+<body>​
+    <header class="cabecalho">
+        <a class="menu" href="home.html">
+            <img src="imagens/folha.png" alt="imagem" width="80" height="70">
+            </a>
+
+    
+    <div class="efeito"></div>
+
+    
+</header>
+
+
+    <nav>
+        <p> GUIZAO   </p>
+        <ul>
+            <li><a href="home.html"> Página Inicial </a></li>
+            <li><a href="#"> Entenda nosso mundo </a>
+            <ul>
+                <li><a href="vegetariano.html"> Vegetarianismo </a></li>
+                <li><a href="vegano.html"> Veganismo </a></li>
+                
+            </ul>
+            </li>
+            <li><a href="#"> Receitas </a>
+                <ul>
+                    <li><a href="receitas.html"> Vegetarianas </a></li>
+                    <li><a href="receitas.html"> Veganas </a></li>
+                </ul>
+            </li>
+
+            <li><a href="#">  </a></li>
+        </ul>
+        <center>
+            <form method="post" action="form.php">
+                <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" class="form-control" style=" margin-top: 130px; width:500px; height: 40px;" placeholder="Digite o seu nome" required>
+                </div>
+            
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" class="form-control" style=" margin-top: px; width:500px; height: 40px;" placeholder="seu@email.com" required>
+            </div>
+            <div class="form-group">
+                <label for="nascimento">nascimento</label>
+                <input type="date" name="nascimento" id="nascimento" class="form-control" style=" width:500px; height: 40px;" placeholder="seu@email.com" >
+            </div>
+            <div class="form-group">
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="senha" style=" width:500px; height: 40px;" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Sexo</label>
+                <input type="radio" name="masculino" id="nascimento" class="form-control" style=" width:500px; height: 40px;" placeholder="seu@email.com" >
+            </div>
+
+            </div>
+            <div>
+                <button type="submit" class="btn btn-primary">cadastrar</button>
+            </div>
+
+        </form>
+
+    </center>
+
+
+
+    
+</body>
+</html>​
